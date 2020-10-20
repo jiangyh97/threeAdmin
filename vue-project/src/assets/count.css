@@ -1,0 +1,45 @@
+#table{
+    padding: 20px;
+}
+.warptable{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    width: 228px;
+    height: 200px;
+    border-radius: 5px;
+}
+.wai{
+    width: 126px;
+    margin: 0 auto;
+}
+.panz{
+    padding-top: 20px;
+}
+.one .spanw{
+    width: 84px;
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f0f9eb;
+    border-color: #e1f3d8;
+    color: #67c23a;
+    line-height: 32px;
+    margin: 0 auto;
+}
+.one .spanw span{
+    font-size: 12px !important;
+}
+.bgone{
+    background-color: greenyellow;
+}
+.bgtwo{
+    background-color: rgb(230, 162, 60);
+}
+.bgthree{
+    background-color: rgb(245, 108, 108);
+}
+.bgfour{
+    background-color: rgb(144, 147, 153);
+}

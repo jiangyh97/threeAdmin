@@ -1,0 +1,99 @@
+*{
+  font-size: 14px;
+}
+a {
+    color: black;
+  }
+  .home {
+    display: flex;
+  }
+  .hLeft {
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(43, 46, 51);
+  }
+.smallhead{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .smallhead img{
+      width: 160px;
+      height: 40px;
+  }
+.shouye{
+  width: 200px;
+  height: 56px;
+  cursor: pointer;
+  text-align: left;
+  line-height: 56px;
+  padding-left: 30px;
+}
+.shouye:hover{
+  background-color: gray;
+}
+  .first{
+    color: orange;
+  }
+
+  /* 右边内容区域 */
+  .hContent {
+    background-color: #fff;
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.home-header {
+    height: 73px;
+    width: 100%;
+    box-shadow: 1px 1px 4px black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.home-header-msg {
+    display: flex;
+    align-items: center;
+
+}
+.buxiaode {
+    margin:0 10px;
+}
+.home-header-msg>div {
+    line-height: 44.36px;
+}
+.home-header-msg img {
+    width: 40px;
+    vertical-align: middle;
+}
+.home-footer {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color:#f3f3f3;
+    
+}
+
+/* 中间内容部分 */
+.home-middle {
+    width: 100%;
+    
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px 10px;
+    overflow-y: scroll;
+    background-color:#f3f3f3;
+}
+.nei{
+  width: 100%;
+  height: auto;
+  /* background-color: pink; */
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
